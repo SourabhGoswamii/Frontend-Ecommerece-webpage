@@ -107,11 +107,10 @@ const Home = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
-      {/* Modern Navbar with fixed search box */}
       <nav className="bg-white shadow-md sticky top-0 z-50 transition-all duration-300">
         <div className="container mx-auto px-2 sm:px-4">
           <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Logo and Menu - reduced min-width */}
+
             <div className="flex items-center gap-1 sm:gap-3 shrink-0">
               <div className="relative">
                 <button 
