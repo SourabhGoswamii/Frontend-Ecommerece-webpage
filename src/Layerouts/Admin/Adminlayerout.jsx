@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaHome, FaBox, FaUsers, FaCog, FaBars, FaSearch, FaUserCircle, FaCloudUploadAlt } from 'react-icons/fa';
-import Loading from "../../components/Loading.jsx";
+import Loading from "../../Components/loading.jsx";
 import {Link} from "react-router-dom"
 
 const AdminLayout = () => {
