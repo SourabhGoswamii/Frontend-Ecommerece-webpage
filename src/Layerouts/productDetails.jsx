@@ -4,7 +4,7 @@ import { FaShoppingCart, FaGithub, FaLinkedin, FaTwitter, FaUserCircle, FaEllips
 import Card from "../Components/Card";
 import Search from "../Components/search";
 import { useDebounce } from "react-use";
-import Loading from "../components/Loading";
+import Loading from "../Components/loading.jsx";
 
 const ProductDetail = () => {
   const { id } = useParams();
