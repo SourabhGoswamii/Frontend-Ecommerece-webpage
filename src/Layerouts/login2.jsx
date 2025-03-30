@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaUserCircle, FaHome, FaEnvelope, FaLock, FaPhoneAlt, FaSms,FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa";
-import Loading from "../components/Loading";
+
 
 const LoginPage = () => {
   const [activeTab, setActiveTab] = useState("email"); // "email" or "phone"
