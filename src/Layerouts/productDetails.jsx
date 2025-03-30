@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { FaShoppingCart, FaGithub, FaLinkedin, FaTwitter, FaUserCircle, FaEllipsisV, FaArrowLeft, FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
 import Card from "../Components/Card";
-import Loading from "../Components/Loading";
 import Search from "../Components/search";
 import { useDebounce } from "react-use";
+import Loading from "../components/Loading";
 
 const ProductDetail = () => {
   const { id } = useParams();

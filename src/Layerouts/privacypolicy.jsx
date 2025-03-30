@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaShieldAlt, FaUserShield, FaDatabase, FaClipboardList, FaLock, FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Loading from "../components/Loading";
 
 const PrivacyPolicy = () => {
   return (

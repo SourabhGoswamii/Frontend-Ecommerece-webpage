@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaUserPlus, FaHome, FaEnvelope, FaLock, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import Loading from "../components/Loading";
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { format } from "date-fns";
 import { FaSearch, FaAngleDown, FaHome, FaMapMarkerAlt, FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Loading from "../components/Loading";
 
 const Orders = () => {
   const auth = JSON.parse(localStorage.getItem("auth"));
