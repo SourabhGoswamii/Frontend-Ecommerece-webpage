@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Search from "../Components/search";
 import { FaGithub, FaLinkedin, FaTwitter, FaEllipsisV, FaShoppingCart,  FaMapMarkerAlt,FaEnvelope,FaPhone } from 'react-icons/fa';
 import Card from "../Components/Card";
-import Loading from "../Components/Loading";
+import Loading from "../components/Loading";
 import { useDebounce } from "react-use";
 
 const Home = () => {
