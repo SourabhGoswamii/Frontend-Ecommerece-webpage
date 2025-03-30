@@ -88,7 +88,8 @@ const Home = () => {
     { name: "Cart", path: "/cart" },
     { name: "About Us", path: "/about" },
     { name: "Contact", path: "/contact" },
-    { name: "Privacy Policy", path: "/privacy" }
+    { name: "Privacy Policy", path: "/privacy" },
+    { name: "Admin", path: "/admin" }
   ];
 
   const menuItems = [
